@@ -8,7 +8,7 @@
 {% when "mixpanel" %}
   {% include JB/analytics-providers/mixpanel %}
 {% when "gtm" %}
-  {% include analytics-providers/gtm %}
+  {% include JB/analytics-providers/gtm %}
 {% endcase %}
 
 {% endif %}
