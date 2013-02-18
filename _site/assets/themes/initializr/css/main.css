@@ -53,3 +53,10 @@
 .icon-mobile:before { content: '📱'; } /* '\1f4f1' */
 .icon-search:before { content: '🔎'; } /* '\1f50e' */
 
+.brand{
+font-family: 'Fugaz One', cursive;
+}
+
+body{
+  background: #fff url('../img/background.png') 0 0 repeat;
+}

@@ -13,6 +13,8 @@
         {% endif %}
         <meta name="author" content="{{ site.author.name }}">
 
+        <link href='http://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+
 
         <meta name="viewport" content="width=device-width">
         <link href="{{ ASSET_PATH }}/css/bootstrap.min.css" rel="stylesheet">
@@ -25,19 +27,12 @@
     </head>
 
 
-    <body style="padding:15px 5px;">
+    <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-
     {% include JB/analytics %}
-
-
-            
-
-            
 
 
     <div class="container">
@@ -66,23 +61,23 @@
             </div>
         </div>
             
-          
-                    {{ content }} 
-      
+
+        <div class="">
+            {{ content }} 
+        </div>
         <hr>
 
         <footer>
 
 
-                <p>&copy; {{ site.author.name }} {{ site.time | date: '%Y' }} built with <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll</a> and <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a></p>
+                <p>&copy; {{ site.author.name }} {{ site.time | date: '%Y' }}</p>
 
-                <a href="#" class="btn btn-inverse btn-small"><i class="icon-quora"></i></a>
-                <a href="#" class="btn btn-inverse btn-small"><i class="icon-spotify"></i></a>
-                <a href="#" class="btn btn-inverse btn-small"><i class="icon-linkedin"></i></a>
-                <a href="#" class="btn btn-inverse btn-small"><i class="icon-facebook"></i></a>
-                <a href="#" class="btn btn-inverse btn-small"><i class="icon-twitter"></i></a>
-                <a href="#" class="btn btn-inverse btn-small"><i class="icon-soundcloud"></i> </a>
-                <a href="#" class="btn btn-inverse btn-small"><i class="icon-email"></i></a>
+                <a target="_blank" href="http://www.quora.com/Yalcin-Kaya" class="btn btn-inverse btn-small"><i class="icon-quora"></i></a>
+                <a target="_blank" href="http://open.spotify.com/user/1231687249/playlist/25nndQ1AEjB4OlSczQl23w" class="btn btn-inverse btn-small"><i class="icon-spotify"></i></a>
+                <a target="_blank" href="http://au.linkedin.com/in/aliyalcinkaya" class="btn btn-inverse btn-small"><i class="icon-linkedin"></i></a>
+                <a target="_blank" href="https://www.facebook.com/yalcin.timeline" class="btn btn-inverse btn-small"><i class="icon-facebook"></i></a>
+                <a target="_blank" href="http://twitter.com/aliyalcinkaya" class="btn btn-inverse btn-small"><i class="icon-twitter"></i></a>
+                <a target="_blank" href="mailto:kayayalcin@gmail.com" class="btn btn-inverse btn-small"><i class="icon-email"></i></a>
         </footer>
 
   </div> <!-- /container -->

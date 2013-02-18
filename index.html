@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 
-tagline: 
+title: Experiments in the wild
+tagline: Experiments in the wild
 tags:
 permalink:
 published:
@@ -9,19 +9,25 @@ category:
 ---
 {% include JB/setup %}
 
+<div class="hero-unit" style="background:rgba(255,255,255,0.5)">
+  <h1>Experiments In the Wild</h1>
+  <p>Digital Marketing Technology and Performance Blog</p>
+  <p>
+    <a class="btn btn-primary btn-large">
+      Read The Latest Article
+    </a>
+  
+  </p>
+</div>
 
 
+<h3>Recent Posts</h3>
 
-<h3> Recent Posts</h3>
-<ul class="posts">
-
+<ul class="posts ">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
-
 </ul>
-
-
 
 
         
