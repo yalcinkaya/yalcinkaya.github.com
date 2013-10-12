@@ -4,13 +4,79 @@
  <title></title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2013-10-13T02:38:48+11:00</updated>
+ <updated>2013-10-13T02:40:08+11:00</updated>
  <id></id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Easy Form Optimisation</title>
+   <link href="/hello/2013/09/28/easy-form-optimisation.html"/>
+   <updated>2013-09-28T00:00:00+10:00</updated>
+   <id>/hello/2013/09/28/easy-form-optimisation</id>
+   <content type="html">&lt;p&gt;Bronnie Ware is an Australian nurse who spent many years working in palliative care caring for those who were dying. She eventually published a book called the The Top Five Regrets of the Dying.&lt;/p&gt;
+
+&lt;p&gt;I wish I&amp;#8217;d had the courage to live a life true to myself, not the life others expected of me.&lt;/p&gt;
+
+&lt;p&gt;I wish I hadn&amp;#8217;t worked so hard.&lt;/p&gt;
+
+&lt;p&gt;I wish I&amp;#8217;d had the courage to express my feelings.&lt;/p&gt;
+
+&lt;p&gt;I wish I had stayed in touch with my friends.&lt;/p&gt;
+
+&lt;p&gt;I wish that I had let myself be happier.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>What did I learn about my self?</title>
+   <link href="/hello/2013/08/28/what-did-I-learn.html"/>
+   <updated>2013-08-28T00:00:00+10:00</updated>
+   <id>/hello/2013/08/28/what-did-I-learn</id>
+   <content type="html">&lt;p&gt;My emotional states shape my attitude. My attitude shapes my experience. When I smoke weed, I get a new perspective. When I use x, I am very happy, friendly and comfortable to be myself around people.&lt;/p&gt;
+
+&lt;p&gt;The feelings emerge from using stimulants and they only there for a limited time. With the observing self, I can learn from these experiences and change consciously.&lt;/p&gt;
+
+&lt;p&gt;Although, I don&amp;#8217;t feel how I felt on Friday now, I can still remember it. I had the will and strength to dig deeper into the nagging feelings that I had around being with Anna and sex. Suddenly everything made sense. I don&amp;#8217;t remember how the thought process was but the feeling of peace, relaxation and love was right there. Here&amp;#8217;s what I can recall;&lt;/p&gt;
+
+&lt;p&gt;Anna is a very important part of my life. I never wanted to have sex with someone although our sex life is hanging of the cliff. Thinking about someone feels like I am conflicting myself, although I don&amp;#8217;t know why yet.&lt;/p&gt;
+
+&lt;p&gt;I have a duty to myself to be the person that I want to be. I feel this is my opportunity to grow mindfully and be someone that I am 100% happy to be.&lt;/p&gt;
+
+&lt;p&gt;The two are not conflicting with each other they are just tangled. There is a risk associated with changing personalities in terms maintaining my relationship with Anna. However, I feel like that risk can be mitigated if I keep the communication lines open with her and if she does the same too.&lt;/p&gt;
+
+&lt;p&gt;This Friday I was free from the nagging internal talk and I was happy. I don&amp;#8217;t know how but i even managed to hangout with people that didn&amp;#8217;t speak english. I had good time with my brothers and other people that we met casually.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='ruby'&gt;&lt;span class='o'&gt;&amp;lt;&lt;/span&gt;&lt;span class='n'&gt;html&lt;/span&gt;&lt;span class='o'&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;foo&lt;/span&gt;
+  &lt;span class='nb'&gt;puts&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;foo&amp;#39;&lt;/span&gt;
+&lt;span class='k'&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>What did I learned about my self?</title>
+   <link href="/hello/2013/08/28/test-test.html"/>
+   <updated>2013-08-28T00:00:00+10:00</updated>
+   <id>/hello/2013/08/28/test-test</id>
+   <content type="html">&lt;p&gt;My emotional states shape my attitude. My attitude shapes my experience. When I smoke weed, I get a new perspective. When I use x, I am very happy, friendly and comfortable to be myself around people.&lt;/p&gt;
+
+&lt;p&gt;The feelings emerge from using stimulants and they only there for a limited time. With the observing self, I can learn from these experiences and change consciously.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='ruby'&gt;&lt;span class='lineno'&gt;1&lt;/span&gt; &lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;foo&lt;/span&gt;
+&lt;span class='lineno'&gt;2&lt;/span&gt;   &lt;span class='nb'&gt;puts&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;foo&amp;#39;&lt;/span&gt;
+&lt;span class='lineno'&gt;3&lt;/span&gt; &lt;span class='k'&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Although, I don&amp;#8217;t feel how I felt on Friday now, I can still remember it. I had the will and strength to dig deeper into the nagging feelings that I had around being with Anna and sex. Suddenly everything made sense. I don&amp;#8217;t remember how the thought process was but the feeling of peace, relaxation and love was right there. Here&amp;#8217;s what I can recall;&lt;/p&gt;
+
+&lt;p&gt;Anna is a very important part of my life. I never wanted to have sex with someone although our sex life is hanging of the cliff. Thinking about someone feels like I am conflicting myself, although I don&amp;#8217;t know why yet.&lt;/p&gt;
+
+&lt;p&gt;I have a duty to myself to be the person that I want to be. I feel this is my opportunity to grow mindfully and be someone that I am 100% happy to be.&lt;/p&gt;
+
+&lt;p&gt;The two are not conflicting with each other they are just tangled. There is a risk associated with changing personalities in terms maintaining my relationship with Anna. However, I feel like that risk can be mitigated if I keep the communication lines open with her and if she does the same too.&lt;/p&gt;
+
+&lt;p&gt;This Friday I was free from the nagging internal talk and I was happy. I don&amp;#8217;t know how but i even managed to hangout with people that didn&amp;#8217;t speak english. I had good time with my brothers and other people that we met casually.&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>Helloworld</title>
