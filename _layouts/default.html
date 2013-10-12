@@ -1,9 +1,6 @@
-    {% include header.html %}
-    {% include tagmanager.html %}
-    {% include home_menu.html %}
-
-    <div class="content">
-      {{ content }}
-    </div>
-  
-    {% include footer.html %}
+---
+theme :
+  name : yalcin
+---
+{% include JB/setup %}
+{% include themes/yalcin/default.html %}
