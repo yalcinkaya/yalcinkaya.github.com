@@ -2,7 +2,9 @@
 /about.html
 /atom.xml
 /categories.html
+/contact.html
 /index.html
+/portfolio.html
 /sitemap.txt
 /tags.html
 

@@ -4,7 +4,7 @@
  <title></title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2013-10-05T13:54:49+10:00</updated>
+ <updated>2013-10-13T02:29:37+11:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -13,25 +13,21 @@
 
  
  <entry>
-   <title>Easy Form Optimisation</title>
+   <title>What did I learn yesterday?</title>
    <link href="/hello/2013/09/28/easy-form-optimisation.html"/>
    <updated>2013-09-28T00:00:00+10:00</updated>
    <id>/hello/2013/09/28/easy-form-optimisation</id>
    <content type="html">&lt;p&gt;Bronnie Ware is an Australian nurse who spent many years working in palliative care caring for those who were dying. She eventually published a book called the The Top Five Regrets of the Dying.&lt;/p&gt;
 
-&lt;p&gt;I wish I&amp;#8217;d had the courage to live a life true to myself, not the life others expected of me.&lt;/p&gt;
+&lt;p&gt;Joining a larger company is never easy and we learned a number of invaluable lessons along the way. We learned the importance of teamwork and a strong relationship with corporate leadership. We learned to leverage the innovations Conduit was creating, while adding our own unique voice, skills and capabilities to the Conduit team. Wibiya&amp;#8217;s team and technology are powering innovation across many Conduit products and has created a significant impact across the company.&lt;/p&gt;
 
-&lt;p&gt;I wish I hadn&amp;#8217;t worked so hard.&lt;/p&gt;
+&lt;p&gt;With Conduit’s new direction and organizational changes, the Wibiya platform is no longer in alignment with the future strategy. Over the coming months, most of the Wibiya team and innovations will be integrated throughout Conduit, bringing our expertise and experience to existing and yet-to-be released products.&lt;/p&gt;
 
-&lt;p&gt;I wish I&amp;#8217;d had the courage to express my feelings.&lt;/p&gt;
-
-&lt;p&gt;I wish I had stayed in touch with my friends.&lt;/p&gt;
-
-&lt;p&gt;I wish that I had let myself be happier.&lt;/p&gt;</content>
+&lt;p&gt;In appreciation of your loyalty, Conduit will be offering all Wibiya publishers three free months of Conduit Mobile. Conduit Mobile is a dynamic platform that allows anyone to easily create a mobile app or mobile site. Wibiya publishers will receive an email with additional information in a few weeks.&lt;/p&gt;</content>
  </entry>
  
  <entry>
-   <title>What did I learn about my self?</title>
+   <title>What did I learn today?</title>
    <link href="/hello/2013/08/28/what-did-I-learn.html"/>
    <updated>2013-08-28T00:00:00+10:00</updated>
    <id>/hello/2013/08/28/what-did-I-learn</id>
@@ -56,7 +52,7 @@
  </entry>
  
  <entry>
-   <title>What did I learned about my self?</title>
+   <title>What did I learn, if I ever learned anything?</title>
    <link href="/hello/2013/08/28/test-test.html"/>
    <updated>2013-08-28T00:00:00+10:00</updated>
    <id>/hello/2013/08/28/test-test</id>
