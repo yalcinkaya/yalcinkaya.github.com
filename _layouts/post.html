@@ -1,5 +1,46 @@
 ---
-layout: default
+layout: post
 ---
-{% include JB/setup %}
-{% include themes/initializr/post.html %}
+
+{% include header.html %}
+{% include tagmanager.html %}
+{% include menu_content.html %}
+
+<div class="article">
+
+            <h1>{{ page.title }}</h1>
+            {{ page.date | date_to_string }}
+
+
+            {{ content }}
+
+
+
+            <div>     
+                {% if page.next %}
+                <div class="well">
+                  Next Article <br>
+                    <a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a>
+                </li>
+                     </div>
+                {% else %}
+                <li class="pagination disabled">
+                 
+                {% endif %}
+                </li>
+            </div>
+          
+            <hr>
+            
+            <strong>other articles</strong>
+            <ul class="list-unstyled">
+                {% for post in site.posts %}
+                <li style=""><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>`</li>
+                {% endfor %}
+            </ul>
+
+
+</div>
+    <script src="/js/less.js"></script>
+    </body>
+</html>

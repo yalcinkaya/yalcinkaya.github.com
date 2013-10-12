@@ -1,6 +1,11 @@
----
-theme :
-  name : yalcin
----
-{% include JB/setup %}
-{% include themes/yalcin/default.html %}
+    {% include header.html %}
+    {% include tagmanager.html %}
+    {% include menu.html %}
+
+    <div class="content">
+      {{ content }}
+    </div>
+  
+    <script src="/js/less.js"></script>
+    </body>
+</html>
