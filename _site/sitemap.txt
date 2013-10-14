@@ -3,8 +3,6 @@
 /atom.xml
 /categories.html
 /index.html
-/pages.html
-/posts.html
 /sitemap.txt
 /tags.html
 
