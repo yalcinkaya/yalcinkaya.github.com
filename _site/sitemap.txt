@@ -1,10 +1,10 @@
 
-/about.html
-/atom.xml
-/categories.html
-/index.html
-/sitemap.txt
-/tags.html
+http://yalcinkaya.github.com/about.html
+http://yalcinkaya.github.com/atom.xml
+http://yalcinkaya.github.com/categories.html
+http://yalcinkaya.github.com/index.html
+http://yalcinkaya.github.com/sitemap.txt
+http://yalcinkaya.github.com/tags.html
 
-/lessons/2013/02/17/helloworld.html
-/lessons/2011/12/29/jekyll-introduction.html
+http://yalcinkaya.github.com/lessons/2013/02/17/helloworld
+http://yalcinkaya.github.com/lessons/2011/12/29/jekyll-introduction
