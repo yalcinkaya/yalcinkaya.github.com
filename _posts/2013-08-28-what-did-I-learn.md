@@ -1,8 +1,13 @@
 ---
 layout: post
+
+title: What did I learn today?
+lead: Any variables in the front matter that are not predefined are mixed into the data. 
+
+tags :  [intro, jekyll, test]
 category : hello
-tags : [intro, jekyll, test]
-title: What did I learn about my self?
+
+heroimage: /img/image1.jpg
 
 ---
 

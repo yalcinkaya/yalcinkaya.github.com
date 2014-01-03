@@ -7,56 +7,41 @@
   width: 300px;
   text-align: center;
   padding:100px 20px;
-  font-weight: 100;
-
 
 }
 
-/*
-.cover-img{
-  position: absolute;
-width: 100%;
-height: 100%;
-top: 0;
-left: 0;
-background-position: center;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
--webkit-box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.3);
--moz-box-shadow: inset -1px 0 0 rgba(0,0,0,0.3);
-box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.3);
-background-image:url('/img/bg.jpg');
-}*/
-
-.menu a{
+.menu a, .menu_content a{
   color: #ffffff;
   text-decoration: none;
 }
 
 .menu_content {
-  position: fixed;
+  position: absolute;
+  width:100%;
   top: 0;
-  bottom: 0;
-  text-align: center;
+  height: 50px;
   padding:10px 0;
   font-weight: 100;
+  z-index:11;
 }
-
 
 .content{
   margin-left:350px;
   padding:20px 50px 0 0;
-  max-width:750px;
+  max-width:670px;
   min-width:400px;
 
 }
 .article{
   margin: 0 auto;
-  padding:0 20px 0 120px;
-  max-width:800px;
-  min-width:500px;
+  padding:15px 10px;
+  max-width:650px;
+  min-width:310px;
+}
+
+.article:first-letter {
+  font-size: 3em;
+  line-height: 1em;
 }
 
 .footnote{
@@ -64,12 +49,71 @@ background-image:url('/img/bg.jpg');
   bottom:20px;
 }
 
+.icon-home-outline:before { 
+   font-size: 30px;
+}
+
 .icon-compass:before { 
+  content: '\e800'; 
   font-size: 60px;
-  -webkit-animation-name: swing;
+  /*-webkit-animation-name: swing;
   -webkit-animation-duration:12s ;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function:ease-in-out;
-  -webkit-transform-origin: 0% 50%;
+  -webkit-transform-origin: 50% 50%;*/
   z-index:10;
+
   } 
+
+  div.box {
+    background: #eee;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+
+  }
+  div.box div.hero {
+    display: none;
+    position: absolute;
+    top: 0px; left: 0px;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+  }
+
+  div.box div.hero{
+    display: block;
+  }
+  div.hero div.caption {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    padding:0 15px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 2px 10px #000;
+    width:100%;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+  }
+
+  .readnext{
+    margin:10px 0;
+    }
+
+  h1 {
+      font-size: 60px;
+      text-transform: uppercase;
+      display: block;
+    }

@@ -2,8 +2,10 @@
 /about.html
 /atom.xml
 /categories.html
+/contact.html
 /index.html
 /pages.html
+/portfolio.html
 /posts.html
 /sitemap.txt
 /tags.html
@@ -11,5 +13,3 @@
 /hello/2013/09/28/easy-form-optimisation.html
 /hello/2013/08/28/what-did-I-learn.html
 /hello/2013/08/28/test-test.html
-/lessons/2013/02/17/helloworld.html
-/lessons/2011/12/29/jekyll-introduction.html
