@@ -1,10 +1,21 @@
 
+<<<<<<< HEAD
 http://yalcinkaya.github.com/about.html
 http://yalcinkaya.github.com/atom.xml
 http://yalcinkaya.github.com/categories.html
 http://yalcinkaya.github.com/index.html
 http://yalcinkaya.github.com/sitemap.txt
 http://yalcinkaya.github.com/tags.html
+=======
+/about.html
+/atom.xml
+/categories.html
+/index.html
+/pages.html
+/posts.html
+/sitemap.txt
+/tags.html
+>>>>>>> parent of 52506de... tagline update
 
 http://yalcinkaya.github.com/lessons/2013/02/17/helloworld
 http://yalcinkaya.github.com/lessons/2011/12/29/jekyll-introduction

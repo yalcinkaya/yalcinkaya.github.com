@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
+<<<<<<< HEAD
  <title>Ali Yalcin Kaya</title>
  <link href="http://yalcinkaya.github.com/atom.xml" rel="self"/>
  <link href="http://yalcinkaya.github.com"/>
  <updated>2014-01-04T00:35:24+11:00</updated>
  <id>http://yalcinkaya.github.com</id>
+=======
+ <title></title>
+ <link href="/atom.xml" rel="self"/>
+ <link href=""/>
+ <updated>2013-10-13T02:38:48+11:00</updated>
+ <id></id>
+>>>>>>> parent of 52506de... tagline update
  <author>
    <name>Ali Yalcin Kaya</name>
    <email>kayayalcin@gmail.com</email>
