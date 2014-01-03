@@ -1,4 +1,12 @@
 
+<<<<<<< HEAD
+http://yalcinkaya.github.com/about.html
+http://yalcinkaya.github.com/atom.xml
+http://yalcinkaya.github.com/categories.html
+http://yalcinkaya.github.com/index.html
+http://yalcinkaya.github.com/sitemap.txt
+http://yalcinkaya.github.com/tags.html
+=======
 /about.html
 /atom.xml
 /categories.html
@@ -9,7 +17,13 @@
 /posts.html
 /sitemap.txt
 /tags.html
+>>>>>>> parent of 52506de... tagline update
 
+<<<<<<< HEAD
 /hello/2013/09/28/easy-form-optimisation.html
 /hello/2013/08/28/what-did-I-learn.html
 /hello/2013/08/28/test-test.html
+=======
+http://yalcinkaya.github.com/lessons/2013/02/17/helloworld
+http://yalcinkaya.github.com/lessons/2011/12/29/jekyll-introduction
+>>>>>>> 1e9766a0981e238e709ef1e94f41625bbf6c7a54
