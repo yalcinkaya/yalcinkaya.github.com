@@ -1,0 +1,53 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://workthedough.com/test/fancybox/jquery.fancybox-1.3.4.js"></script>
+
+
+<script type='text/javascript'>
+/*var t=setTimeout("CheckTimer();",10000); //Her on saniyede bir visit time i kontrol et
+function CheckTimer(){
+    $.getJSON("/WebServices/Utils.asmx/IsSessionVisitTimePassed?sd=" + SD + "&minute=3", 
+    function(data) {
+		if($("#aControlIDon").is(":visible")){ // if livehelp button is active
+           if(data.resultSet){
+               ShowVistorMessage();
+           }else{
+              var t1=setTimeout("CheckTimer();",10000); //Her on saniyede bir visit time i kontrol et
+           }
+	   }
+    });
+}
+function OpenLiveHelpWindow() {
+   CloseFancyBox();
+   newWindow = window.open('https://support.ashop.com.au/Chat/frmClientPreChat.aspx?config=7', 'LiveChat5', 		'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=560,height=520'); 		if (newWindow) { newWindow.focus(); newWindow.opener=window; } return false;
+}*/
+function ShowVistorMessage() {
+	$("#fancybox-outer").css("background", "url('/images/shoppingcart/scartbackground.png') no-repeat");
+
+	SetFancyBoxStyles();
+
+	$.fancybox({
+		'overlayOpacity': 0.6,
+		'content': "<div><img src='/resources/5A/1000026/Image/can-i-help-banner-tr.png' width=505 height=266 onclick='OpenLiveHelpWindow();' /></div>", //CVC.jpg yerine kendi imajınızı koyun...
+		'width': 505,
+		'height': 266,
+		'autoDimensions': false,
+		'autoScale': false,
+		'padding': 0,
+		'margin': 0,
+		'titlePosition': 'inside',
+		'transitionIn': 'fade',
+		'transitionOut': 'fade',
+		'speedIn': 500,
+		'speedOut': 500,
+		'showCloseButton': false,
+		'onComplete': function () {
+		},
+		'onClosed': function () {
+			$("#fancybox-outer").css("background", "");
+		}
+	});
+
+
+}
+</script>
